@@ -1,0 +1,16 @@
+# Build outputs
+node_modules/
+dist/
+
+# Source (will be built, no need to include)
+src/
+
+# Development files
+scripts/
+tsconfig.json
+rollup.config.mjs
+pnpm-lock.yaml
+package-lock.json
+
+# Icon sources
+../../icons/
