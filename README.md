@@ -5,11 +5,11 @@ AWS Architecture Icons as optimized React components with full TypeScript suppor
 ## 🚀 Installation
 
 ```bash
-npm install aws-icons
+npm install @nxavis/aws-icons
 # or
-yarn add aws-icons
+yarn add @nxavis/aws-icons
 # or
-pnpm add aws-icons
+pnpm add @nxavis/aws-icons
 ```
 
 ## 📦 Features
@@ -26,7 +26,7 @@ pnpm add aws-icons
 ### Basic Usage
 
 ```tsx
-import { AmazonEc2, AmazonS3 } from "aws-icons";
+import { AmazonEc2, AmazonS3 } from "@nxavis/aws-icons";
 
 function MyComponent() {
   return (
@@ -37,6 +37,17 @@ function MyComponent() {
   );
 }
 ```
+
+function MyComponent() {
+return (
+<div>
+<AmazonEc2 size={48} />
+<AmazonS3 size={48} color="#FF9900" />
+</div>
+);
+}
+
+````
 
 ### Dynamic Import (Code Splitting)
 
@@ -68,7 +79,7 @@ function IconPicker() {
     </div>
   );
 }
-```
+````
 
 **Benefits of Dynamic Import:**
 

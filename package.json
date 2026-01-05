@@ -1,12 +1,12 @@
 {
-  "name": "aws-icons",
+  "name": "@nxavis/aws-icons",
   "version": "1.0.0",
   "description": "AWS Architecture Icons as React Components - Optimized with tree-shaking support",
-  "author": "Your Name",
+  "author": "nxavis",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/aws-icons.git"
+    "url": "https://github.com/softallice/aws-icons.git"
   },
   "keywords": [
     "aws",
