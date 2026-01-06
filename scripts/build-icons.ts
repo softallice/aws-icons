@@ -50,8 +50,8 @@ export default ${componentName};
 async function generateIcons() {
   console.log(`Searching for icons in ${SOURCE_DIR}...`);
 
-  // Find all SVG files, targeting 32px version to avoid duplicates across sizes
-  const svgFiles = await glob('**/32/*.svg', { cwd: SOURCE_DIR });
+  // Find all SVG files, targeting 48px version to avoid duplicates across sizes
+  const svgFiles = await glob('**/48/*.svg', { cwd: SOURCE_DIR });
   console.log(`Found ${svgFiles.length} icons.`);
 
   // Create output directory
