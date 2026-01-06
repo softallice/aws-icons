@@ -6,7 +6,7 @@ import * as cheerio from 'cheerio';
 import camelcase from 'camelcase';
 import { IconNode } from '../src/types';
 
-const SOURCE_DIR = path.resolve(__dirname, '../../icons/aws/Architecture-Service-Icons_02072025');
+const SOURCE_DIR = path.resolve(__dirname, '../../works/icons/aws/Architecture-Service-Icons_02072025');
 const OUT_DIR = path.resolve(__dirname, '../src/icons');
 const ICON_DIR = path.resolve(__dirname, '../src/icons');
 const INDEX_FILE = path.resolve(__dirname, '../src/index.ts');
@@ -50,8 +50,8 @@ export default ${componentName};
 async function generateIcons() {
   console.log(`Searching for icons in ${SOURCE_DIR}...`);
 
-  // Find all SVG files, targeting 48px version to avoid duplicates across sizes
-  const svgFiles = await glob('**/48/*.svg', { cwd: SOURCE_DIR });
+  // Find all SVG files, targeting 32px version to avoid duplicates across sizes
+  const svgFiles = await glob('**/32/*.svg', { cwd: SOURCE_DIR });
   console.log(`Found ${svgFiles.length} icons.`);
 
   // Create output directory

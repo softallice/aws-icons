@@ -1,6 +1,6 @@
 {
   "name": "@nxavis/aws-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AWS Architecture Icons as React Components - Optimized with tree-shaking support",
   "author": "nxavis",
   "license": "MIT",
